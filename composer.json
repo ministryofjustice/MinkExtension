@@ -1,5 +1,5 @@
 {
-    "name": "friends-of-behat/mink-extension",
+    "name": "coderste/mink-extension",
     "type": "behat-extension",
     "description": "Mink extension for Behat",
     "keywords": [
