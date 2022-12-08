@@ -66,7 +66,7 @@ class BrowserKitFactory implements DriverFactory
 
         $parameters[] = $config['http_client_parameters'] ?? [];
 
-        $httpClientDefinition = new Definition(NativeHttpClient::class, $parameters);
+        $httpClientDefinition = new Definition(HttpClient::class, $parameters);
 
         return new Definition(BrowserKitDriver::class, [
             new Definition(HttpBrowser::class, [
