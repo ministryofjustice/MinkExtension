@@ -1,5 +1,5 @@
 {
-    "name": "coderste/mink-extension",
+    "name": "ministryofjustice/mink-extension",
     "type": "behat-extension",
     "description": "Mink extension for Behat",
     "keywords": [
